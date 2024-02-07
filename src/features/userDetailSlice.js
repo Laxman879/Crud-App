@@ -6,7 +6,7 @@ export const createUser = createAsyncThunk(
   async (data, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://65979677668d248edf230549.mockapi.io/curd",
+        "https://65c32785f7e6ea59682c0a99.mockapi.io/curd",
         data
       );
       return response.data;
